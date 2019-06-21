@@ -1,0 +1,50 @@
+/*@import url(./b.css);*/
+body{
+    background: #8cafae;
+}
+a{
+    text-decoration: none;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*上面不要看*/
+.topNavBar{
+}
+.topNavBar .logo img{
+    height:100px;
+    width: 221px;
+    margin-left: 15px;
+    margin-top: -20px;
+
+}
+ .topNavBar nav ul>li{
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+ .topNavBar nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ .topNavBar nav ul>li>a{
+    border-bottom: 3px solid transparent;
+}
+ .topNavBar nav ul>li>a:hover{
+    border-bottom-color: #dc3140;
+}
+ .topNavBar nav a{
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+ .topNavBar nav{
+     float: right;
+     font-size: 15px;
+     padding-top: 18px;
+     padding-bottom: 8px;
+ }
+
